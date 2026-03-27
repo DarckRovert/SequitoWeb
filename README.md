@@ -30,3 +30,18 @@ La web ya consolida e instruye sobre la versi√≥n **v9.3.0 [God-Tier]** unificada
 <p align="center">
   <b>No busco al Tauren. Dejo que el Tauren me encuentre a m√≠. Y cuando lo haga, el WCS_Brain ya habr√° calculado exactamente qu√© pasar√° despu√©s.</b><br/>‚Äî <i>Elnazzareno</i>
 </p>
+
+---
+
+## ?? Comunidad y Gobernanza
+
+Este portal web es el centro neur·lgico del ecosistema **El SÈquito del Terror**. Nos comprometemos a mantener un ambiente sano y profesional:
+
+- ?? **[CÛdigo de Conducta](./CODE_OF_CONDUCT.md)**: Nuestras normas de convivencia.
+- ?? **[GuÌa de ContribuciÛn](./CONTRIBUTING.md)**: CÛmo colaborar en el portal.
+- ??? **[Licencia](./LICENSE)**: Este proyecto est· bajo la Licencia MIT.
+
+---
+
+### ?? Powered by Netlify
+Este sitio est· hospedado gracias al **Netlify Open Source Plan**. Apoyamos a las comunidades de cÛdigo abierto.
