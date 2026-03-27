@@ -1,4 +1,4 @@
-﻿# Contributing to El Séquito del Terror Ecosystem
+# Contributing to El Séquito del Terror Ecosystem
 
 Thank you for your interest in contributing! This project is a community-driven open-source addon suite for Turtle WoW, developed by **DarckRovert (Elnazzareno)** and the **El Séquito del Terror** clan.
 
