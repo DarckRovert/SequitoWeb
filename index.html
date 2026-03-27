@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Séquito del Terror - Ecosistema Élite</title>
+    <meta name="description" content="El Séquito del Terror - Clan de Turtle WoW liderado por Elnazzareno. Lore, Ecosistema de Addons y Tácticas Avanzadas.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Canvas for Particles -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <img src="assets/logo.png" alt="Séquito Logo" class="nav-logo">
+            <span>El Séquito del Terror</span>
+        </div>
+        <div class="nav-links">
+            <a href="#lider" class="nav-link">El Líder</a>
+            <a href="#lore" class="nav-link">El Lore</a>
+            <a href="#ecosistema" class="nav-link">Arsenal</a>
+            <a href="#instalacion" class="nav-link">Instalación</a>
+            <a href="#miembros" class="nav-link">El Séquito</a>
+            <a href="#reclutar" class="nav-link">Únete</a>
+            <a href="https://discord.gg/SfY8vfFWTC" target="_blank" class="cyber-button discord-btn">
+                <span>Discord</span>
+                <div class="cyber-button-glitch"></div>
+            </a>
+        </div>
+        <!-- Hamburger for mobile -->
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#lider" class="mobile-nav-link">El Líder</a>
+        <a href="#lore" class="mobile-nav-link">El Lore</a>
+        <a href="#ecosistema" class="mobile-nav-link">Arsenal</a>
+        <a href="#instalacion" class="mobile-nav-link">Instalación</a>
+        <a href="#miembros" class="mobile-nav-link">El Séquito</a>
+        <a href="#reclutar" class="mobile-nav-link">Únete</a>
+        <a href="https://discord.gg/SfY8vfFWTC" target="_blank" class="mobile-nav-link discord-mobile">Discord</a>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content reveal">
+            <img src="assets/logo.png" alt="El Séquito del Terror" class="main-logo float-anim">
+            <h1 class="mega-title heartbeat-slow">LA OSCURIDAD SE ALZA</h1>
+            <p class="hero-subtitle">El ecosistema táctico definitivo. El clan más temido de Turtle WoW. Bienvenido al Séquito.</p>
+            <div class="hero-cta-group">
+                <a href="#lore" class="cyber-button lore-btn">
+                    <span>Descubrir el Lore</span>
+                    <div class="cyber-button-glitch"></div>
+                </a>
+                <a href="#ecosistema" class="cyber-button arsenal-btn">
+                    <span>Ver el Arsenal</span>
+                    <div class="cyber-button-glitch"></div>
+                </a>
+                <a href="#instalacion" class="cyber-button install-btn">
+                    <span>Cómo Instalarlo</span>
+                    <div class="cyber-button-glitch"></div>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Desciende</p>
+        </div>
+    </header>
+
+    <!-- Leader Section: Elnazzareno -->
+    <section id="lider" class="leader-section">
+        <div class="container">
+            <div class="leader-grid">
+                <div class="leader-image-wrapper reveal from-left">
+                    <div class="image-glow"></div>
+                    <img src="assets/elnazzareno.png" alt="Elnazzareno Gnomo Brujo" class="leader-portrait">
+                </div>
+                <div class="leader-info reveal from-right">
+                    <h2 class="section-title">El Líder <span>Supremo</span></h2>
+                    <h3 class="leader-name">ELNAZZARENO</h3>
+                    <p class="leader-tagline">Conocido en el mundo mortal como <strong>DarckRovert</strong>.</p>
+                    <p class="leader-description">
+                        Gnomo Brujo, arquitecto del caos y mente maestra detrás de "El Séquito del Terror". Su intelecto táctico no se mide en puntos de habilidad, sino en líneas de código Lua. Guía al clan desde las sombras con un ojo en el campo de batalla y el otro en la pantalla de compilación. Su barba lo precede. Su leyenda lo sobrevive.
+                    </p>
+                    <div class="leader-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10</span>
+                            <span class="stat-label">Addons Forjados</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">v9.3.1</span>
+                            <span class="stat-label">WCS Brain</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Sed de Venganza</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.twitch.tv/darckrovert" target="_blank" class="social-card twitch">
+                            <span class="platform">Twitch</span>
+                            <span class="handle">@darckrovert</span>
+                        </a>
+                        <a href="https://kick.com/darckrovert" target="_blank" class="social-card kick">
+                            <span class="platform">Kick</span>
+                            <span class="handle">@darckrovert</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- LORE SECTION: Crónicas del Descamisado                       -->
+    <!-- ============================================================ -->
+    <section id="lore" class="lore-section">
+        <div class="container">
+            <div class="section-header reveal text-center lore-header-wrapper">
+                <p class="lore-prelude">Apaga las luces. Abre una cerveza. Esto es historia.</p>
+                <h2 class="section-title">Crónicas del <span>Descamisado</span></h2>
+                <p class="lore-subtitle">La historia jamás narrada de cómo una barba rosa, un Tauren violento y tres toneladas de queso de Alterac dieron origen al clan más temido de Turtle WoW.</p>
+            </div>
+
+            <div class="lore-timeline">
+
+                <!-- Act I -->
+                <div class="lore-act reveal from-left" data-act="I">
+                    <div class="lore-act-badge">ACTO I</div>
+                    <div class="lore-grid">
+                        <div class="lore-text-box">
+                            <h3 class="lore-title">El Spa de las Sombras y la Barba Prohibida</h3>
+                            <p class="lore-desc">
+                                Mucho antes de que existiera el Séquito del Terror, existía un gnomo. No era un gnomo cualquiera con su casco mecánico y sus gadgets de segunda. Era <strong class="pink-glow-text">Elnazzareno</strong>, el único ser en Gnomeregan que había alcanzado la iluminación estética a través de las artes oscuras.
+                            </p>
+                            <p class="lore-desc">
+                                Mientras sus compañeros inventaban robots y hacían explotar laboratorios por accidente, Elnazzareno descubrió algo mucho más poderoso: el <em>Tinte Prohibido de las Profundidades del Vacío</em>. Siete años de investigación, cuarenta y tres fracasos, y una vez que casi convirtió su cabello en tentáculos, el resultado fue una barba de un rosa perfectamente obsceno que brillaba incluso en la oscuridad más absoluta.
+                            </p>
+                            <p class="lore-desc">
+                                La capucha también era rosa. Era una elección deliberada. "Si vas a aterrorizar un servidor", solía decir mientras agitaba su lanterna con elegancia, <span class="pink-glow-text">"hazlo con color coordinado".</span>
+                            </p>
+                            <div class="lore-quote">"¿Para qué invocar demonios si no puedes lucir fabuloso mientras lo haces?" — Elnazzareno, año 1 del Séquito</div>
+                        </div>
+                        <div class="lore-image-container">
+                            <div class="lore-image-glow"></div>
+                            <img src="assets/lore-humorous-1.png" alt="El Spa de las Sombras" class="lore-img">
+                            <div class="lore-image-caption">Elnazzareno preparando su rutina en el Spa de las Sombras circa 2005</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="lore-divider reveal">
+                    <div class="lore-divider-line"></div>
+                    <div class="lore-divider-rune">⚔</div>
+                    <div class="lore-divider-line"></div>
+                </div>
+
+                <!-- Act II -->
+                <div class="lore-act lore-act-reverse reveal from-right" data-act="II">
+                    <div class="lore-act-badge">ACTO II</div>
+                    <div class="lore-grid">
+                        <div class="lore-text-box">
+                            <h3 class="lore-title">El Incidente del Selfie y el Tauren Violento</h3>
+                            <p class="lore-desc">
+                                Era una tarde perfecta en Los Baldíos. El cielo naranja se reflejaba en la arena dorada. Las leónas rugían a lo lejos. Era, en palabras del propio gnomo, <em>"el ambiente ideal para un Grimorio-Gram de perfil"</em>. Elnazzareno posicionó su cristal de visión mágica, cuadró la toma, puso sus labios en la posición que él llamaba "el puchero del brujo eterno", y presionó el obturador.
+                            </p>
+                            <p class="lore-desc">
+                                Lo que ocurrió a continuación cambió la historia de Turtle WoW.
+                            </p>
+                            <p class="lore-desc">
+                                De entre las rocas emergió un Tauren. Grande. Muy grande. El tipo de Tauren que en lugar de caminar produce pequeños terremotos locales. Sin saludo, sin presentación, sin la más mínima consideración por el arte fotográfico, este ser colosal lo atacó con su tótem de forma completamente gratuita, dejándole una herida profunda que, lo más importante de todo, <span class="pink-glow-text">arruinó completamente la foto</span>.
+                            </p>
+                            <div class="lore-quote">"La herida en mi cuerpo sanarla. Pero la foto... la foto era perfecta." — Elnazzareno, llorando en el suelo de los Baldíos</div>
+                        </div>
+                        <div class="lore-image-container">
+                            <div class="lore-image-glow lore-image-glow--red"></div>
+                            <img src="assets/lore-humorous-2.png" alt="El Drama del Selfie" class="lore-img">
+                            <div class="lore-image-caption">Reconstrucción artística del momento exacto del desastre</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="lore-divider reveal">
+                    <div class="lore-divider-line"></div>
+                    <div class="lore-divider-rune">💀</div>
+                    <div class="lore-divider-line"></div>
+                </div>
+
+                <!-- Act III -->
+                <div class="lore-act reveal from-left" data-act="III">
+                    <div class="lore-act-badge">ACTO III</div>
+                    <div class="lore-grid">
+                        <div class="lore-text-box">
+                            <h3 class="lore-title">El Exilio del Queso y el Nacimiento de los Addons</h3>
+                            <p class="lore-desc">
+                                Maltratado en cuerpo y en orgullo, Elnazzareno se retiró a una cueva sin decorar al sureste de Ventormenta. No era una cueva bonita. Había humedad. Había murciélagos. Había un olor a pies que ningún encantamiento podía eliminar. Pero había una cosa importantísima: nadie lo conocía ahí.
+                            </p>
+                            <p class="lore-desc">
+                                Consigo llevó: su linterna (fundamental), su espada (por si acaso), y veintisiete raciones de queso de Alterac de Reserva Especial. Pasó los siguientes <strong>diecisiete días</strong> llorando, comiendo queso, y ocasionalmente agitando su espada hacia la pared gritando "¡NUNCA MÁS, TAUREN MALDITO!" a nadie en particular.
+                            </p>
+                            <p class="lore-desc">
+                                Fue en el decimoctavo trozo de queso, mientras las lágrimas de energía fel caían sobre su teclado mágico, que tuvo la revelación: <span class="pink-glow-text">el conocimiento solo es arma si va acompañado de datos en tiempo real</span>. Ahí, sin camisa, oliendo a queso y con la barba ligeramente desaliñada, comenzó a escribir la primera línea de lo que sería el WCS_Brain.
+                            </p>
+                            <div class="lore-quote">"El queso de Alterac no te da respuestas. Pero te da el valor para buscarlas." — Extracto del Diario del Exilio, p.47</div>
+                        </div>
+                        <div class="lore-image-container">
+                            <div class="lore-image-glow lore-image-glow--gold"></div>
+                            <img src="assets/lore-humorous-3.png" alt="Queso y Desesperación" class="lore-img">
+                            <div class="lore-image-caption">Cueva Número 3, El Gran Exilio. Agosto de los Baldíos.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="lore-divider reveal">
+                    <div class="lore-divider-line"></div>
+                    <div class="lore-divider-rune">⚙</div>
+                    <div class="lore-divider-line"></div>
+                </div>
+
+                <!-- Act IV -->
+                <div class="lore-act lore-act-reverse reveal from-right" data-act="IV">
+                    <div class="lore-act-badge">ACTO IV</div>
+                    <div class="lore-grid">
+                        <div class="lore-text-box">
+                            <h3 class="lore-title">El Código del Caos y la Forja del Arsenal</h3>
+                            <p class="lore-desc">
+                                Con la venganza como combustible y el queso como combustible secundario, Elnazzareno se lanzó al mundo del desarrollo de addons con una intensidad que asustaba incluso a sus propias mascotas. DoTimer fue el primero: para controlar cuándo exactamente sangran los enemigos. BigWigs fue el segundo: para saber cuándo exactamente van a morir todos.
+                            </p>
+                            <p class="lore-desc">
+                                TerrorMeter para medir la destrucción. TerrorSquadAI para que hasta las mascotas pensaran tácticamente. AtlasTW para no perderse. AUX-Trading para financiar la operación. HealBot para que los aliados no murieran de forma inconveniente. Siete addons. Siete armas. Un solo objetivo: que ningún Tauren volviera a arruinar jamás una foto en paz.
+                            </p>
+                            <p class="lore-desc">
+                                Y coronando todo: el <strong class="pink-glow-text">WCS_Brain v9.3.1</strong>, el framework abismal que unificaba todo el arsenal. La médula espinal de la venganza. El cerebro que nunca dormía. Nacido de la rabia, alimentado por el queso, y escrito sin camisa.
+                            </p>
+                            <div class="lore-quote">"El código perfecto no pregunta por qué. El código perfecto ejecuta." — WCS_Brain, README.md, primera línea</div>
+                        </div>
+                        <div class="lore-image-container">
+                            <div class="lore-image-glow lore-image-glow--green"></div>
+                            <img src="assets/lore-humorous-4.png" alt="El Código del Caos" class="lore-img">
+                            <div class="lore-image-caption">El momento exacto en que el WCS_Brain cobró vida</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="lore-divider reveal">
+                    <div class="lore-divider-line"></div>
+                    <div class="lore-divider-rune">👑</div>
+                    <div class="lore-divider-line"></div>
+                </div>
+
+                <!-- Act V -->
+                <div class="lore-act reveal from-left" data-act="V">
+                    <div class="lore-act-badge">ACTO V</div>
+                    <div class="lore-grid">
+                        <div class="lore-text-box">
+                            <h3 class="lore-title">El Rey Semidesnudo y el Imperio del Terror</h3>
+                            <p class="lore-desc">
+                                Hoy, Elnazzareno no necesita presentación. Se presenta solo, generalmente con una espada que mide más que él y una linterna que ilumina a todos los que teme. A su alrededor, el Séquito del Terror: un ejército de jugadores que entendieron que la barba rosa no es una debilidad, es una declaración de carácter.
+                            </p>
+                            <p class="lore-desc">
+                                El Tauren de los Baldíos nunca fue encontrado. Se dice que aún vaga por la zona, ocasionalmente deteniendo aventureros para preguntar si conocen a "ese gnomo pequeño con la barba rara que grita sobre fotos". Nadie le responde. Todos saben lo que le pasó la última vez que alguien hizo enojar a Elnazzareno.
+                            </p>
+                            <p class="lore-desc">
+                                La venganza no siempre es instantánea. A veces viene en forma de siete addons, un framework de ocho versiones, un clan que lleva terror a todos los rincones de Turtle WoW, y una foto que, <span class="pink-glow-text">finalmente, quedó perfecta</span>.
+                            </p>
+                            <div class="lore-quote">"No busco al Tauren. Dejo que el Tauren me encuentre a mí. Y cuando lo haga, el WCS_Brain ya habrá calculado exactamente qué pasará después." — Elnazzareno, en streaming desde Irontforge</div>
+                        </div>
+                        <div class="lore-image-container">
+                            <div class="lore-image-glow lore-image-glow--pink"></div>
+                            <img src="assets/lore-humorous-5.png" alt="El Rey Galán" class="lore-img">
+                            <div class="lore-image-caption">El Imperio del Terror. Año 2026. La barba: perfecta.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end lore-timeline -->
+
+            <!-- Lore CTA -->
+            <div class="lore-cta reveal text-center">
+                <p class="lore-cta-text">¿Te ríes? Bien. Ahora únete al clan más funny y letal de Turtle WoW.</p>
+                <a href="https://discord.gg/SfY8vfFWTC" target="_blank" class="cyber-button discord-btn">
+                    <span>Unirse al Séquito</span>
+                    <div class="cyber-button-glitch"></div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Ecosystem Section -->
+    <section id="ecosistema" class="ecosystem-section">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <h2 class="section-title">El <span>Arsenal</span> Oculto</h2>
+                <p>Nuestras modificaciones otorgan una ventaja táctica injusta, esculpidas a medida del Séquito.</p>
+            </div>
+            
+            <div class="grid-advanced">
+                <!-- WCS_Brain - Núcleo Abismal -->
+                <a href="https://github.com/DarckRovert/WCS_Brain-v9.3.0-God-Tier" target="_blank" class="glass-card reveal staggered core-card-grid" style="--delay: 0ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>WCS_Brain</h4>
+                        <span class="badge core-badge">NÚCLEO ABISMAL</span>
+                        <p>El cerebro central del ecosistema. 14 pestañas de control táctico, IA DQN, banco de clan y sincronización P2P.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- DoTimer -->
+                <a href="https://github.com/DarckRovert/DoTimer-El-Sequito-del-Terror-Edition" target="_blank" class="glass-card reveal staggered" style="--delay: 100ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>DoTimer</h4>
+                        <span class="badge">Séquito Edition v9.3.0</span>
+                        <p>Domina el transcurso de los dots y debuffs. Control absoluto sobre la agonía enemiga.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- BigWigs -->
+                <a href="https://github.com/DarckRovert/BigWigs-El-Sequito-del-Terror-Edition" target="_blank" class="glass-card reveal staggered" style="--delay: 200ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>BigWigs</h4>
+                        <span class="badge">Séquito Edition v9.3.0</span>
+                        <p>Alertas premonitorias de raid. Entérate de la catástrofe antes de que ocurra.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- TerrorSquadAI -->
+                <a href="https://github.com/DarckRovert/TerrorSquadAI" target="_blank" class="glass-card reveal staggered" style="--delay: 300ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>TerrorSquadAI</h4>
+                        <span class="badge secondary">Clase Élite AI v9.3.0</span>
+                        <p>Ingeniería de comportamiento autónomo supremo. Tus mascotas piensan táctica pura.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- TerrorMeter -->
+                <a href="https://github.com/DarckRovert/TerrorMeter-El-Sequito-del-Terror-Edition" target="_blank" class="glass-card reveal staggered" style="--delay: 400ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>TerrorMeter</h4>
+                        <span class="badge">Séquito Edition v9.3.0</span>
+                        <p>Analíticas letales. Cuantifica la destrucción real del clan en bruto, segundo a segundo.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- AtlasTW -->
+                <a href="https://github.com/DarckRovert/AtlasTW-TurtleWoW-El-Sequito-del-Terror-Edition" target="_blank" class="glass-card reveal staggered" style="--delay: 500ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>AtlasTW</h4>
+                        <span class="badge">Séquito Edition v9.3.0</span>
+                        <p>Cartografía avanzada y bases de datos integradas para navegar el mundo de Turtle WoW con ventaja táctica.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- AUX-Trading -->
+                <a href="https://github.com/DarckRovert/AUX-Trading-El-Sequito-del-Terror-Edition" target="_blank" class="glass-card reveal staggered" style="--delay: 600ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>AUX-Trading</h4>
+                        <span class="badge">Séquito Edition v9.3.0</span>
+                        <p>Dominación económica absoluta. Interfaz de subastas optimizada para amasar fortunas y financiar la guerra del clan.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- HealBot -->
+                <a href="https://github.com/DarckRovert/HealBot-El-Sequito-del-Terror-Edition" target="_blank" class="glass-card reveal staggered" style="--delay: 100ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>HealBot</h4>
+                        <span class="badge">Séquito Edition v9.3.0</span>
+                        <p>Sanación quirúrgica y gestión de bandas. Mantén con vida al Séquito mientras la oscuridad consume a tus enemigos.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- pfUI -->
+                <a href="https://github.com/DarckRovert/pfUI-El-Sequito-del-Terror-Edition" target="_blank" class="glass-card reveal staggered" style="--delay: 100ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>pfUI</h4>
+                        <span class="badge">Séquito Edition v9.3.0</span>
+                        <p>Rediseño total de la interfaz. Minimalismo letal y control absoluto sobre cada píxel de tu campo de batalla.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+
+                <!-- pfQuest -->
+                <a href="https://github.com/DarckRovert/pfQuest-El-Sequito-del-Terror-Edition" target="_blank" class="glass-card reveal staggered" style="--delay: 100ms;">
+                    <div class="glass-orb"></div>
+                    <div class="glass-content">
+                        <h4>pfQuest</h4>
+                        <span class="badge">Séquito Edition v9.3.0</span>
+                        <p>Guía de misiones integrada. Optimiza tu ascenso al poder sin distracciones innecesarias.</p>
+                        <div class="card-footer">Explorar Repositorio →</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Tech / WCS Brain -->
+    <section class="core-tech-section">
+        <div class="container">
+            <div class="core-card reveal scale-in">
+                <div class="core-flare"></div>
+                <div class="core-content">
+                    <h2 class="section-title">Núcleo Abismal: <span>WCS_Brain</span></h2>
+                    <p class="core-desc">Operando tras los velos, este framework unificador <strong>(v9.3.1 [God-Tier])</strong> es la médula espinal neurológica que potencia la supremacía táctica de todo nuestro arsenal de interfaz e IA. 14 pestañas. IA DQN. Banco P2P. Perfiles de clan. Nacido del queso. Forjado en la venganza.</p>
+                    <a href="https://github.com/DarckRovert/WCS_Brain-v9.3.1-God-Tier" target="_blank" class="cyber-button void-btn">
+                        <span>Ver Código Fundamental</span>
+                        <div class="cyber-button-glitch"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- TUTORIAL DE INSTALACIÓN                                       -->
+    <!-- ============================================================ -->
+    <section id="instalacion" class="install-section">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <p class="lore-prelude">Bienvenido al Lado Oscuro</p>
+                <h2 class="section-title">Instalar el <span>Ecosistema</span></h2>
+                <p class="install-subtitle">Instalación rápida vía <strong>Turtle WoW Launcher</strong>. Haz clic para copiar la URL y pégala en el juego.</p>
+            </div>
+
+            <div class="install-timeline">
+
+                <!-- PASO 1: ABRIR LAUNCHER -->
+                <div class="install-step reveal from-left">
+                    <div class="install-step-num">1</div>
+                    <div class="install-step-body">
+                        <h3 class="install-step-title">Abrir el Menú de Addons</h3>
+                        <p class="install-step-desc">En el <strong>Turtle WoW Launcher</strong>, haz clic en la pestaña superior <strong>ADDONS</strong>. Luego busca y haz clic en el botón verde <strong>+ Añadir addon</strong>.</p>
+                        <div class="fake-ui-box">
+                            <span style="color: #94a3b8; font-size: 0.8rem; letter-spacing: 2px;">NOTICIAS &nbsp; AJUSTES &nbsp; <span style="color: var(--fel-green);">ADDONS</span> &nbsp; MODS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PASO 2: COPIAR URLs -->
+                <div class="install-step reveal from-right">
+                    <div class="install-step-num">2</div>
+                    <div class="install-step-body">
+                        <h3 class="install-step-title">Copiar e Instalar (1 a 1)</h3>
+                        <p class="install-step-desc">Haz clic en cada botón para copiar su URL. Luego pégala en el recuadro del Launcher y haz clic en "Instalar".<br><strong>Comienza siempre instalando el WCS_Brain.</strong></p>
+                        
+                        <div class="addon-download-grid">
+                            <!-- WCS_Brain -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/WCS_Brain-v9.3.1-God-Tier', this)" class="addon-dl-link core-link">
+                                <span class="addon-dl-name">⭐ WCS_Brain</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- pfUI -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/pfUI-El-Sequito-del-Terror-Edition', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">pfUI</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- pfQuest -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/pfQuest-El-Sequito-del-Terror-Edition', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">pfQuest</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- TerrorSquadAI -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/TerrorSquadAI', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">TerrorSquadAI</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- HealBot -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/HealBot-El-Sequito-del-Terror-Edition', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">HealBot</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- TerrorMeter -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/TerrorMeter-El-Sequito-del-Terror-Edition', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">TerrorMeter</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- Atlas-TW -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/AtlasTW-TurtleWoW-El-Sequito-del-Terror-Edition', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">Atlas-TW</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- BigWigs -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/BigWigs-El-Sequito-del-Terror-Edition', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">BigWigs</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- DoTimer -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/DoTimer-El-Sequito-del-Terror-Edition', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">DoTimer</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                            <!-- AUX-Trading -->
+                            <button onclick="copyRepoUrl('https://github.com/DarckRovert/AUX-Trading-El-Sequito-del-Terror-Edition', this)" class="addon-dl-link">
+                                <span class="addon-dl-name">AUX-Trading</span>
+                                <span class="addon-dl-tag">Click para copiar URL</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PASO 3: CONFIGURAR -->
+                <div class="install-step reveal from-left">
+                    <div class="install-step-num">3</div>
+                    <div class="install-step-body">
+                        <h3 class="install-step-title">Configurar el WCS_Brain</h3>
+                        <p class="install-step-desc">Al entrar al juego, cerciórate de que el botón <strong>"AddOns"</strong> (esquina inferior izquierda) tenga activos los 10 addons. Dentro del mundo, abre el panel central del ecosistema con el comando:</p>
+                        <div class="install-code-block">
+                            <code>/wcsbrain</code>
+                            <span class="install-code-alt">también: <code>/wb</code></span>
+                        </div>
+                        <p class="install-step-desc" style="margin-top: 1rem;">Selecciona tu perfil de clan desde el menú de 14 pestañas. Verifica que el indicador del ecosistema muestra los <strong>10 addons conectados</strong> en verde.</p>
+                        <div class="install-success">
+                            ✅ Cuando todos los indicadores estén en verde, eres oficialmente parte del arsenal del Séquito.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INSTALACIÓN CLÁSICA (ZIP) OCULTA -->
+                <div class="install-step reveal from-right" style="margin-top: 2rem;">
+                    <div class="install-step-num" style="border-style: dashed; opacity: 0.5;">?</div>
+                    <div class="install-step-body" style="background: transparent; border: 1px dashed rgba(255,255,255,0.1);">
+                        <details class="manual-install-details">
+                            <summary class="manual-install-summary">¿Prefieres la instalación manual clásica (ZIP)? Haz clic aquí.</summary>
+                            <div class="manual-install-content" style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+                                <p>1. Ve a <a href="https://github.com/DarckRovert" target="_blank" style="color: var(--fel-green);">nuestro GitHub de la organización</a>.</p>
+                                <p>2. Descarga el ZIP de cada uno de los 10 repositorios desde "Code → Download ZIP".</p>
+                                <p>3. Extrae cada ZIP y copia la carpeta dentro de tu directorio de Turtle WoW: <code>📁 C:\TurtleWoW\Interface\AddOns\</code></p>
+                                <p>⚠️ <strong>Atención:</strong> Asegúrate de que no haya carpetas dobles (ej: no debes tener <code>WCS_Brain-main/WCS_Brain/</code>, solo <code>WCS_Brain/</code>).</p>
+                                <p>4. Reinicia el juego y actívalos.</p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+
+            </div><!-- end install-timeline -->
+
+            <div class="text-center reveal" style="margin-top: 4rem;">
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem;">¿Tienes dudas con la instalación? Pregunta en nuestro Discord.</p>
+                <a href="https://discord.gg/SfY8vfFWTC" target="_blank" class="cyber-button discord-btn">
+                    <span>Pedir Ayuda en Discord</span>
+                    <div class="cyber-button-glitch"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script Inline para Copiar al Portapapeles (Rápido y contenido) -->
+    <script>
+        function copyRepoUrl(url, buttonElement) {
+            // Copiar al portapapeles
+            navigator.clipboard.writeText(url).then(function() {
+                // Estado original
+                const originalTag = buttonElement.querySelector('.addon-dl-tag');
+                const originalText = originalTag.innerText;
+                const originalBg = buttonElement.style.background;
+                const originalBorder = buttonElement.style.borderColor;
+
+                // Estado "¡Copiado!" (Verde Fel)
+                originalTag.innerText = "¡URL COPIADA!";
+                originalTag.style.color = "#000";
+                originalTag.style.fontWeight = "bold";
+                buttonElement.style.background = "var(--fel-green)";
+                buttonElement.style.borderColor = "var(--fel-green)";
+                buttonElement.querySelector('.addon-dl-name').style.color = "#000";
+
+                // Retornar al estado normal después de 2 segundos
+                setTimeout(function() {
+                    originalTag.innerText = originalText;
+                    originalTag.style.color = "";
+                    originalTag.style.fontWeight = "";
+                    buttonElement.style.background = originalBg;
+                    buttonElement.style.borderColor = originalBorder;
+                    buttonElement.querySelector('.addon-dl-name').style.color = "";
+                }, 2000);
+            }).catch(function(err) {
+                console.error('Error al copiar: ', err);
+            });
+        }
+    </script>
+
+    <!-- ============================================================ -->
+    <!-- MIEMBROS DEL SÉQUITO                                          -->
+    <!-- ============================================================ -->
+    <section id="miembros" class="members-section">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <p class="lore-prelude">Los Elegidos del Vacío</p>
+                <h2 class="section-title">El <span>Séquito</span></h2>
+                <p class="install-subtitle">Estos son los guerreros que han jurado lealtad a la causa. Pocos. Letales. Y con mucho queso de Alterac.</p>
+            </div>
+
+            <div class="members-grid">
+                <!-- Elnazzareno -->
+                <div class="member-card reveal staggered" style="--delay: 100ms;">
+                    <div class="member-portrait-wrapper">
+                        <div class="member-glow member-glow--purple"></div>
+                        <img src="assets/elnazzareno.png" alt="Elnazzareno" class="member-portrait">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Elnazzareno</h3>
+                        <span class="member-class warlock">Gnomo Brujo</span>
+                        <span class="member-role leader-role">Líder Supremo</span>
+                        <p class="member-desc">Arquitecto del ecosistema. Portador de la barba rosa. Inventor del queso táctico.</p>
+                    </div>
+                </div>
+
+                <!-- Slot vacío 1 -->
+                <div class="member-card member-card--empty reveal staggered" style="--delay: 200ms;">
+                    <div class="member-portrait-wrapper">
+                        <div class="member-glow member-glow--void"></div>
+                        <div class="member-portrait-empty">?</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">¿Serás el próximo?</h3>
+                        <span class="member-class unknown">Clase Desconocida</span>
+                        <span class="member-role">En reclutamiento</span>
+                        <p class="member-desc">El Séquito crece. El vacío te llama. Los addons te esperan.</p>
+                    </div>
+                </div>
+
+                <!-- Slot vacío 2 -->
+                <div class="member-card member-card--empty reveal staggered" style="--delay: 300ms;">
+                    <div class="member-portrait-wrapper">
+                        <div class="member-glow member-glow--void"></div>
+                        <div class="member-portrait-empty">?</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">¿Demuestras valor?</h3>
+                        <span class="member-class unknown">Clase Desconocida</span>
+                        <span class="member-role">En reclutamiento</span>
+                        <p class="member-desc">El terror no admite cobardes. Pero sí admite gente con buen DPS.</p>
+                    </div>
+                </div>
+
+                <!-- Slot vacío 3 -->
+                <div class="member-card member-card--empty reveal staggered" style="--delay: 400ms;">
+                    <div class="member-portrait-wrapper">
+                        <div class="member-glow member-glow--void"></div>
+                        <div class="member-portrait-empty">?</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">El Vacío Te Observa</h3>
+                        <span class="member-class unknown">Clase Desconocida</span>
+                        <span class="member-role">En reclutamiento</span>
+                        <p class="member-desc">Instala los addons. Entra al Discord. Da un paso hacia la oscuridad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- ÚNETE AL SÉQUITO (RECLUTAMIENTO)                             -->
+    <!-- ============================================================ -->
+    <section id="reclutar" class="recruitment-section">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <p class="lore-prelude">El terror busca nuevos agentes</p>
+                <h2 class="section-title"><span>Únete</span> al Séquito</h2>
+                <p class="install-subtitle">No somos un clan cualquiera. Somos un ecosistema. Si cumples los requisitos, el Vacío te aceptará.</p>
+            </div>
+
+            <div class="recruitment-grid">
+                <!-- Requisitos -->
+                <div class="recruit-card reveal from-left">
+                    <h3 class="recruit-title">📋 Requisitos</h3>
+                    <ul class="recruit-list">
+                        <li>✅ Tener Turtle WoW instalado</li>
+                        <li>✅ Instalar el ecosistema completo de 10 addons</li>
+                        <li>✅ Unirse al Discord del clan</li>
+                        <li>✅ Presentarte en el canal <strong>#reclutamiento</strong></li>
+                        <li>✅ Aguantar las bromas de Elnazzareno</li>
+                        <li>✅ Respetar la barba rosa</li>
+                    </ul>
+                </div>
+
+                <!-- Pasos -->
+                <div class="recruit-card reveal from-right">
+                    <h3 class="recruit-title">⚔️ Cómo Unirse</h3>
+                    <div class="recruit-steps">
+                        <div class="recruit-step">
+                            <div class="recruit-step-num">1</div>
+                            <div>
+                                <h4>Instala el Ecosistema</h4>
+                                <p>Sigue el tutorial de instalación de esta misma página.</p>
+                            </div>
+                        </div>
+                        <div class="recruit-step">
+                            <div class="recruit-step-num">2</div>
+                            <div>
+                                <h4>Únete al Discord</h4>
+                                <p>Entra al servidor y lee las normas del clan.</p>
+                            </div>
+                        </div>
+                        <div class="recruit-step">
+                            <div class="recruit-step-num">3</div>
+                            <div>
+                                <h4>Preséntate</h4>
+                                <p>Di quién eres, qué clase juegas y por qué mereces estar aquí.</p>
+                            </div>
+                        </div>
+                        <div class="recruit-step">
+                            <div class="recruit-step-num">4</div>
+                            <div>
+                                <h4>Trial de Combate</h4>
+                                <p>Una incursión de prueba. El ecosistema hablará por ti.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center reveal" style="margin-top: 3rem;">
+                <a href="https://discord.gg/SfY8vfFWTC" target="_blank" class="cyber-button discord-btn" style="font-size: 1.1rem; padding: 1.2rem 3rem;">
+                    <span>Iniciar el Proceso de Reclutamiento</span>
+                    <div class="cyber-button-glitch"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tribute Section -->
+    <section id="tributo" class="tribute-section">
+        <div class="container text-center">
+            <div class="tribute-content reveal scale-in">
+                <h2 class="section-title">El Peaje de <span>Sangre</span></h2>
+                <p class="tribute-desc">La magia oscura y la absoluta dominancia del servidor no se sostienen solas. Alimenta la maquinaria bélica del Séquito y contribuye a la forja continua de nuestros addons. El queso de Alterac no es gratis.</p>
+                <div class="altar-wrapper">
+                    <img src="assets/altar.png" alt="Altar de Sacrificio" class="altar-img heartbeat-slow">
+                    <div class="altar-glow"></div>
+                </div>
+                <br/>
+                <a href="https://www.paypal.com/donate/?hosted_button_id=DF243KQBGMS3L" target="_blank" class="cyber-button blood-btn">
+                    <span>Ofrecer Tributo (Mantenimiento)</span>
+                    <div class="cyber-button-glitch"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-flex">
+            <div class="footer-left">
+                <img src="assets/logo.png" alt="Logo Inferior" class="footer-logo">
+                <p>&copy; 2026 <strong>El Séquito del Terror</strong>. Forjando la leyenda en Turtle WoW.</p>
+                <p class="footer-sub">Una saga de barba rosa, queso de Alterac y venganza táctica.</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://discord.gg/SfY8vfFWTC" target="_blank">Discord</a>
+                <a href="https://www.twitch.tv/darckrovert" target="_blank">Twitch</a>
+                <a href="https://kick.com/darckrovert" target="_blank">Kick</a>
+                <a href="https://github.com/DarckRovert" target="_blank">GitHub</a>
+                <a href="https://turtlecraft.gg" target="_blank">Turtle WoW</a>
+                <a href="#lore">El Lore</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
