@@ -578,9 +578,9 @@ body {
 .lore-section {
     padding: 8rem 0 10rem 0;
     background:
-        radial-gradient(ellipse at top left, rgba(247, 37, 133, 0.06) 0%, transparent 50%),
-        radial-gradient(ellipse at bottom right, rgba(147, 51, 234, 0.05) 0%, transparent 50%);
-    border-top: 1px solid rgba(247, 37, 133, 0.08);
+        radial-gradient(ellipse at top left, rgba(74, 222, 128, 0.04) 0%, transparent 50%),
+        radial-gradient(ellipse at bottom right, rgba(147, 51, 234, 0.06) 0%, transparent 50%);
+    border-top: 1px solid rgba(74, 222, 128, 0.08);
     border-bottom: 1px solid rgba(147, 51, 234, 0.08);
 }
 
@@ -625,13 +625,14 @@ body {
     font-weight: 900;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: var(--neon-pink);
-    background: rgba(247, 37, 133, 0.08);
-    border: 1px solid rgba(247, 37, 133, 0.25);
+    color: #fff;
+    background: rgba(147, 51, 234, 0.2);
+    border: 1px solid var(--void-purple);
     display: inline-block;
     padding: 0.35rem 1rem;
     border-radius: 3px;
     margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(147, 51, 234, 0.3);
 }
 
 .lore-grid {
@@ -713,9 +714,16 @@ body {
     opacity: 0.85;
 }
 
-.pink-glow-text {
-    color: var(--neon-pink);
+.void-glow-text {
+    color: var(--void-purple);
     font-weight: 600;
+    text-shadow: 0 0 10px rgba(147, 51, 234, 0.5);
+}
+
+.fel-glow-text {
+    color: var(--fel-green);
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(74, 222, 128, 0.4);
 }
 
 /* Lore Image */
@@ -744,9 +752,10 @@ body {
 }
 
 .lore-image-glow--red    { background: var(--blood-red); }
-.lore-image-glow--gold   { background: #f59e0b; }
+.lore-image-glow--purple { background: var(--void-purple); }
 .lore-image-glow--green  { background: var(--fel-green); }
-.lore-image-glow--pink   { background: var(--neon-pink); }
+.lore-image-glow--fel    { background: var(--fel-green); }
+.lore-image-glow--void   { background: var(--void-purple); }
 
 .lore-image-container:hover .lore-image-glow { opacity: 0.5; }
 
@@ -930,6 +939,39 @@ body {
 
 .glass-card:hover .card-footer {
     padding-left: 8px;
+}
+
+/* ============================================================
+   ESBIRRO DEL TERROR TARGET
+   ============================================================ */
+.esbirro-card {
+    border-color: rgba(220, 38, 38, 0.4) !important;
+    background: rgba(127, 29, 29, 0.1) !important;
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.1) !important;
+    grid-column: 1 / -1;
+}
+.esbirro-card:hover {
+    box-shadow: 0 0 40px rgba(220, 38, 38, 0.4), 0 10px 30px rgba(0,0,0,0.8) !important;
+    border-color: rgba(220, 38, 38, 0.8) !important;
+}
+.esbirro-card .orb-ai {
+    background: radial-gradient(circle, var(--blood-red) 0%, transparent 60%);
+    opacity: 0.2;
+}
+.esbirro-card:hover .orb-ai {
+    opacity: 0.5;
+    animation: AIpulse 2s infinite;
+}
+.ai-badge {
+    background: rgba(220, 38, 38, 0.15) !important;
+    color: #fca5a5 !important;
+    border-color: rgba(220, 38, 38, 0.4) !important;
+}
+
+@keyframes AIpulse {
+    0%   { transform: scale(1.5); filter: brightness(1); }
+    50%  { transform: scale(1.6); filter: brightness(1.5); }
+    100% { transform: scale(1.5); filter: brightness(1); }
 }
 
 /* ============================================================

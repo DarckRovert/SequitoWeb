@@ -19,7 +19,7 @@ Este repositorio contiene el **código fuente Front-End** de la página de aterr
 | Sección | Contenido |
 |---|---|
 | **Hero** | Presentación del clan y llamadas a la acción |
-| **Lore** | Historia épica (y algo absurda) de Elnazzareno |
+| **Lore** | Crónicas canónicas de Elnazzareno y la dominación del Vacío |
 | **Arsenal** | Los 10 addons del ecosistema con links a GitHub |
 | **Instalación** | Tutorial paso a paso con Click-to-Copy URLs |
 | **Miembros** | Galería del Séquito |
@@ -60,6 +60,7 @@ Este portal es la cara pública del ecosistema de addons de El Séquito del Terr
 | Addon | Repositorio |
 |---|---|
 | WCS_Brain v9.3.1 | [Ver en GitHub](https://github.com/DarckRovert/WCS_Brain-v9.3.1-God-Tier) |
+| Esbirro del Terror (IA Autónoma) | [Ver en GitHub](https://github.com/DarckRovert/PUENTE) |
 | TerrorSquadAI v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/TerrorSquadAI) |
 | TerrorMeter v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/TerrorMeter-El-Sequito-del-Terror-Edition) |
 | HealBot v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/HealBot-El-Sequito-del-Terror-Edition) |
@@ -77,6 +78,6 @@ Este portal es la cara pública del ecosistema de addons de El Séquito del Terr
 - 🛠️ [Guía de Contribución](./CONTRIBUTING.md)
 
 ---
-© 2024 **DarckRovert (Elnazzareno)** — El Séquito del Terror  
+© 2026 **DarckRovert (Elnazzareno)** — El Séquito del Terror  
 
 [![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-color-accent.svg)](https://www.netlify.com)

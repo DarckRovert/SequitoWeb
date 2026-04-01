@@ -1,14 +1,15 @@
-# Contribuyendo a El Séquito del Terror
+# Forjando Arsenal para El Séquito
 
-¡Gracias por tu interés en potenciar nuestro arsenal!
+El ecosistema requiere de mentes tácticas dispuestas a sacrificar su tiempo en la optimización del código.
 
-## Cómo contribuir
-1. Haz un fork del repositorio.
-2. Crea una rama para tu mejora (git checkout -b feature/mejora).
-3. Envía tus cambios vía Pull Request.
+## Cómo aportar al ecosistema
+1. Haz un fork de nuestros grimorios (repositorios).
+2. Crea una rama para tu conjuro (`git checkout -b feature/nueva-tactica`).
+3. Envía tu aporte táctico vía Pull Request al Líder Supremo.
 
-## Estándares
-- Compatibilidad total con **Turtle WoW (Lua 5.0)**.
-- Documentación clara en los commits.
+## Estándares de la Hermandad
+- Compatibilidad letal garantizada con **Turtle WoW (Lua 5.0)**.
+- Si trabajas sobre la IA, compatibilidad con arquitecturas neurales **(Python / Ollama)**.
+- Comentarios y commits escritos con pulcritud absoluta.
 
-Lee nuestro [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) antes de empezar.
+Jura lealtad al [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) antes de empezar.

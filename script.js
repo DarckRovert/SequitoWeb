@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (rand > 0.2) {
                 this.color = `rgba(74, 222, 128, ${this.opacity})`; // Fel Green
             } else {
-                this.color = `rgba(247, 37, 133, ${this.opacity})`; // Neon Pink (lore)
+                this.color = `rgba(220, 38, 38, ${this.opacity})`; // Blood Red (lore)
             }
         }
 

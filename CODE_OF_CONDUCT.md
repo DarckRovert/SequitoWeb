@@ -1,15 +1,15 @@
 # Código de Conducta de El Séquito del Terror
 
-## Nuestro Compromiso
-Como miembros, contribuyentes y líderes de **El Séquito del Terror**, nos comprometemos a hacer de la participación en nuestra comunidad una experiencia libre de acoso para todos.
+## Nuestro Juramento de Sangre
+Como acólitos, contribuyentes y comandantes de **El Séquito del Terror**, nos compromemos a mantener una disciplina marcial. El ecosistema táctico exige absoluto orden para garantizar la eficiencia bélica en un entorno respetuoso.
 
-## Nuestros Estándares
-- Demostrar empatía y amabilidad.
-- Respetar las opiniones divergentes.
-- Aceptar la responsabilidad por nuestros actos.
+## Nuestras Directivas
+- Demostrar lealtad, empatía y respeto profesional entre aliados.
+- Acatar la cadena de mando y las revisiones de código de manera madura.
+- Aceptar la responsabilidad por la eficacia e impacto de tus aportes.
 
 ## Aplicación
-Los incidentes pueden reportarse a través de GitHub Issues en el repositorio oficial.
+Las traiciones, infracciones o falta de conducta serán tratadas severamente. Reporta incidentes a través del issue tracker de GitHub de la organización.
 
 ---
-Adaptado del [Contributor Covenant](https://www.contributor-covenant.org) v2.1.
+Adaptado estructuralmente del [Contributor Covenant](https://www.contributor-covenant.org) v2.1.
