@@ -44,32 +44,36 @@ Este proyecto está postulado para el **Netlify Open Source Plan** y cumple con 
 
 ## ⚙️ Despliegue Local
 
-`ash
+```bash
 # Clona el repositorio
 git clone https://github.com/DarckRovert/SequitoWeb.git
 
 # Abre el archivo directamente en el navegador
 # (no requiere servidor — es HTML estático puro)
 open index.html
-`
+```
 
 ## 🔗 Ecosistema de Addons
 
 Este portal es la cara pública del ecosistema de addons de El Séquito del Terror:
 
-| Addon | Repositorio |
-|---|---|
-| WCS_Brain v9.3.1 | [Ver en GitHub](https://github.com/DarckRovert/WCS_Brain-v9.3.1-God-Tier) |
-| Esbirro del Terror (IA Autónoma) | [Ver en GitHub](https://github.com/DarckRovert/PUENTE) |
-| TerrorSquadAI v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/TerrorSquadAI) |
-| TerrorMeter v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/TerrorMeter-El-Sequito-del-Terror-Edition) |
-| HealBot v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/HealBot-El-Sequito-del-Terror-Edition) |
-| pfUI v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/pfUI-El-Sequito-del-Terror-Edition) |
-| pfQuest v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/pfQuest-El-Sequito-del-Terror-Edition) |
-| Atlas-TW v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/AtlasTW-TurtleWoW-El-Sequito-del-Terror-Edition) |
-| DoTimer v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/DoTimer-El-Sequito-del-Terror-Edition) |
-| BigWigs v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/BigWigs-El-Sequito-del-Terror-Edition) |
-| AUX-Trading v9.3.0 | [Ver en GitHub](https://github.com/DarckRovert/AUX-Trading-El-Sequito-del-Terror-Edition) |
+| Categoría | Addon | Repositorio |
+|---|---|---|
+| **Core** | WCS_Brain v9.3.1 | [Ver](https://github.com/DarckRovert/WCS_Brain-v9.3.1-God-Tier) |
+| | pfUI v9.3.0 | [Ver](https://github.com/DarckRovert/pfUI-El-Sequito-del-Terror-Edition) |
+| | pfQuest v9.3.0 | [Ver](https://github.com/DarckRovert/pfQuest-El-Sequito-del-Terror-Edition) |
+| | Atlas-TW v9.3.0 | [Ver](https://github.com/DarckRovert/AtlasTW-TurtleWoW-El-Sequito-del-Terror-Edition) |
+| **Combate** | Esbirro del Terror (IA) | [Ver](https://github.com/DarckRovert/PUENTE) |
+| | TerrorSquadAI v9.3.0 | [Ver](https://github.com/DarckRovert/TerrorSquadAI) |
+| | TerrorMeter v9.3.0 | [Ver](https://github.com/DarckRovert/TerrorMeter-El-Sequito-del-Terror-Edition) |
+| | BigWigs v9.3.0 | [Ver](https://github.com/DarckRovert/BigWigs-El-Sequito-del-Terror-Edition) |
+| | HealBot v9.3.0 | [Ver](https://github.com/DarckRovert/HealBot-El-Sequito-del-Terror-Edition) |
+| **Utilidades** | DoTimer v9.3.0 | [Ver](https://github.com/DarckRovert/DoTimer-El-Sequito-del-Terror-Edition) |
+| | EquipCompare v9.3.0 | [Ver](https://github.com/DarckRovert/EquipCompare-El-Sequito-del-Terror-Edition) |
+| | StatCompare v9.3.0 | [Ver](https://github.com/DarckRovert/StatCompare-El-Sequito-del-Terror-Edition) |
+| **Economía** | Auctionator v9.3.0 | [Ver](https://github.com/DarckRovert/Auctionator-El-Sequito-del-Terror-Edition) |
+| | AUX-Trading v9.3.0 | [Ver](https://github.com/DarckRovert/AUX-Trading-El-Sequito-del-Terror-Edition) |
+| **Desarrollo** | Gravity AI Bridge v5.1 | [Ver](https://github.com/DarckRovert/Gravity_AI_bridge) |
 
 ## 🕸️ Gobernanza
 
@@ -80,4 +84,4 @@ Este portal es la cara pública del ecosistema de addons de El Séquito del Terr
 ---
 © 2026 **DarckRovert (Elnazzareno)** — El Séquito del Terror  
 
-[![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-color-accent.svg)](https://www.netlify.com)
+[![Powered by Netlify](https://img.shields.io/badge/Powered%20by-Netlify-00C7B7?logo=netlify&logoColor=white)](https://www.netlify.com)
