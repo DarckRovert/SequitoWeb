@@ -1,2 +1,2 @@
-[INIT] Iniciando despliegue de alta disponibilidad - jue 09/04/2026 13:03:44.77 
-[SequitoWeb] --- Start Check: 13:03:44.85 --- 
+[INIT] Iniciando despliegue de alta disponibilidad - jue 09/04/2026 13:10:31.10 
+[SequitoWeb] --- Start Check: 13:10:31.17 --- 
