@@ -10,9 +10,9 @@ Conoce la historia y estadísticas de **Elnazzareno** (DarckRovert), el arquitec
 ### El Lore
 Sección narrativa que detalla el pacto abismal y el origen del clan. Ideal para nuevos miembros que deseen comprender la filosofía del Séquito.
 
-### Arsenal (Addons)
-Lista interactiva de los 14+ addons modificados. Cada tarjeta contiene:
-- Nombre del addon.
+### Arsenal (Addons & Programas)
+Lista interactiva de los 14+ addons y 2 programas de IA modificados. Cada tarjeta contiene:
+- Nombre del componente.
 - Versión actual.
 - Resumen de funcionalidad.
 - Enlace directo al código fuente en GitHub.
@@ -20,14 +20,14 @@ Lista interactiva de los 14+ addons modificados. Cada tarjeta contiene:
 ## 2. Proceso de Instalación (Launcher)
 
 El portal está optimizado para su uso con el **Turtle WoW Launcher**:
-1. Haz clic en el botón del addon deseado en la sección "Instalación".
+1. Haz clic en el botón del componente deseado en la sección "Instalación".
 2. Verás una notificación visual que indica "¡URL COPIADA!".
 3. Pega la URL directamente en la sección de Addons de tu Launcher.
 
 ## 3. Para Desarrolladores
 
-### Gravity AI Bridge
-Si eres un forjador de código, consulta la sección de herramientas para obtener acceso al **Gravity AI Bridge V5.1**, permitiéndote integrar modelos de IA locales en tu flujo de trabajo de desarrollo de addons.
+### Esbirro del Terror & Gravity AI Bridge
+Si eres un forjador de código, consulta la sección de herramientas para obtener acceso al **Gravity AI Bridge V8.0.0 PRO** y al motor **Esbirro del Terror**, permitiéndote integrar modelos de IA locales y visión computacional en tu flujo de trabajo.
 
 ## 4. Reclutamiento y Comunidad
 
